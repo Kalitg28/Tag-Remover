@@ -1,6 +1,6 @@
 import os
 
-ENVIRONMENT = bool(os.environ.get('ENVIRONMENT', False))
+ENVIRONMENT = bool(os.environ.get('ENVIRONMENT', True))
 
 if ENVIRONMENT:
     try:
