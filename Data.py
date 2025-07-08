@@ -3,7 +3,7 @@ from pyrogram.types import InlineKeyboardButton
 
 class Data:
     # Start Message
-    START = "Hey {}. \n\nWelcome to {} \n\nSend me anything and I'll send it back after removing the forwarded tag. \n\nBy @NXDDUpdates ♥"
+    START = "Hey {}. \n\nWelcome to {} \n\nSend me anything and I'll send it back after removing the forwarded tag. \n\nBy @Indian_MV ♥"
 
     # About Message
     ABOUT = """
@@ -26,6 +26,6 @@ Developer : @NXDDUpdates
         [
             InlineKeyboardButton("🎪 About The Bot 🎪", callback_data="about")
         ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/NXDDUpdates")],
-        [InlineKeyboardButton("🎨 Support Group 🎨", url="https://t.me/vipscraper")],
+        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/Indian_MV")],
+        [InlineKeyboardButton("🎨 Support Group 🎨", url="https://t.me/Indian_MV_Group")],
     ]
