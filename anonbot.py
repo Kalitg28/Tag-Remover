@@ -19,7 +19,7 @@ app = Client(
 # Run Bot
 if __name__ == "__main__":
     try:
-        app.start(python3 anonbot.py)  # Not using run as wanna print
+        app.start()  # Not using run as wanna print
     except (ApiIdInvalid, ApiIdPublishedFlood):
         raise Exception("Your API_ID/API_HASH is not valid.")
     except AccessTokenInvalid:
