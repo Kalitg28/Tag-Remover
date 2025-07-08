@@ -9,7 +9,7 @@ class Data:
     ABOUT = """
 **About This Bot** 
 
-Developer : @NXDDUpdates
+Developer : @Indian_MV
     """
 
     # Home Button
